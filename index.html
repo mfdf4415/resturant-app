@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <title>M rest</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo"><i class="fa-solid fa-utensils"></i>m.food</div>
+
+        <nav class="nav">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#menu">menu</a>
+            <a href="">abuot</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu-bar"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+            <i class="fa-solid fa-heart" id="like-icon"></i>
+            <i class="fa-solid fa-cart-shopping" id="cart-icon" cuontre="3"></i>
+        </div>
+
+    </header>
+
+    <div class="search-box">
+        <form action="" id="search-form">
+            <input type="text" id="search-in" placeholder="search her...">
+            <label for="" class="fa-solid fa-magnifying-glass"></label>
+            <i class="fa-solid fa-times" id="close-search"></i>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <div class="shoping-cart-box">
+        <i class="fa-solid fa-times" id="close-cart"></i>
+        <div class="in-carts" id="cart-container">Your shopping cart is empty</div>
+        <div class="pay-cart">
+            <hr>
+            <div>total price: 34.90$</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <button>pay <i class="fa-brands fa-paypal"></i></button>
+        </div>
+    </div>
+
+    <section id="home">
+        <div class="buner">
+            <div class="content">
+                <span>our spetioal</span>
+                <h2>spacy <span id="txt-type" data-words='["Chicken", "pasta","burger"]' data-wait="3000"></span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic unde enim voluptatum! Porro, illum
+                    sapiente.</p>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="img-container">
+                <img src="./images/home-img-2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="dishes">
+        <h3 class="sub-heding">our dishes</h3>
+        <h2 class="heding">popular dishes</h2>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-heart"></i>
+                <img src="./images/dish-4.png" alt="">
+                <h3>burgur</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span>16.94$</span>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-heart"></i>
+                <img src="./images/dish-5.png" alt="">
+                <h3>burgur</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span>16.94$</span>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-heart"></i>
+                <img src="./images/dish-3.png" alt="">
+                <h3>burgur</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span>16.94$</span>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-heart"></i>
+                <img src="./images/dish-1.png" alt="">
+                <h3>burgur</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span>16.94$</span>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-heart"></i>
+                <img src="./images/dish-2.png" alt="">
+                <h3>burgur</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span>16.94$</span>
+                <button class="btn">add to cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h3 class="sub-heding">our menu</h3>
+        <h2 class="heding">popular menu</h2>
+
+        <div class="box-container" id="menu-container">
+
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>england, london, street387</div>
+            <div>united state, new yourk, street387</div>
+            <div>iran, tehran, street387</div>
+            <div>india, dehli, street387</div>
+        </div>
+        <div>
+            <div>
+                <div>resturant@email.com</div>
+                <div>mfdf4415@email.com</div>
+                <div>+98 918 533 7637</div>
+                <div>+85 576 857 8585</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/menus.json"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "burger",
+        "src": "./images/dish-1.png",
+        "price": 15.45
+    },
+    {
+        "name": "streeps chicken",
+        "src": "./images/dish-2.png",
+        "price": 9.69
+    },
+    {
+        "name": "chicken",
+        "src": "./images/dish-3.png",
+        "price": 25.85
+    },
+    {
+        "name": "big pizza",
+        "src": "./images/dish-4.png",
+        "price": 13.49
+    },
+    {
+        "name": "chokolat",
+        "src": "./images/dish-5.png",
+        "price": 15.49
+    },
+    {
+        "name": "Fried Chicken",
+        "src": "./images/dish-6.png",
+        "price": 10.49
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "pizza",
+        "src": "./images/menu-1.jpg",
+        "price": 10.49
+    },
+    {
+        "name": "burger",
+        "src": "./images/menu-2.jpg",
+        "price": 6.56
+    },
+    {
+        "name": "crap",
+        "src": "./images/menu-3.jpg",
+        "price": 3.69
+    },
+    {
+        "name": "ice cream",
+        "src": "./images/menu-4.jpg",
+        "price": 5.87
+    },
+    {
+        "name": "cake",
+        "src": "./images/menu-5.jpg",
+        "price": 15.49
+    },
+    {
+        "name": "cake & crame",
+        "src": "./images/menu-6.jpg",
+        "price": 4.92
+    },
+    {
+        "name": "mohito",
+        "src": "./images/menu-7.jpg",
+        "price": 8.19
+    },
+    {
+        "name": "Fruit feed",
+        "src": "./images/menu-8.jpg",
+        "price": 6.69
+    },
+    {
+        "name": "Orange juice",
+        "src": "./images/menu-9.jpg",
+        "price": 4.15
+    }
+]
