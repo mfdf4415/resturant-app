@@ -364,7 +364,7 @@ header .icons #like-icon::after {
 
 .pay-cart button:hover {
     letter-spacing: .1rem;
-    background: var(--lighte-color);
+    opacity: .8;
 }
 
 #home .buner {
